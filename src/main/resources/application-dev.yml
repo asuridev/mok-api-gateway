@@ -1,0 +1,15 @@
+server:
+  port: 3000
+nats:
+  url: nats://localhost:4222
+spring:
+
+#documentation
+springdoc:
+  api:
+    docs:
+      enabled: true
+  swagger-ui:
+    enabled: true
+    path: /doc/swagger-ui.html
+  

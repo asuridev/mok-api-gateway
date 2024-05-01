@@ -1,0 +1,18 @@
+server:
+  port: ${SERVER_PORT}
+
+nats:
+  url: ${NATS_SERVER}
+
+spring:
+
+
+#documentation
+springdoc:
+  api:
+    docs:
+      enabled: false
+  swagger-ui:
+    enabled: false
+    path: /doc/swagger-ui.html
+  

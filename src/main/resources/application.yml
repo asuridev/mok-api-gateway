@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /api/v1
+spring:
+  application:
+    name: api_gateway
+  profiles:
+    active: ${PROFILE:dev}
+  
